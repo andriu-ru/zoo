@@ -20,7 +20,7 @@ public class Lion {
         System.out.println( this.name + " сидит на попе!" );
     }
 
-    public void eatForLion(Food food) {
+    public void eatMeat(Food food) {
         System.out.println( "Ммм какое вкусное " + food.productName );
     }
 }

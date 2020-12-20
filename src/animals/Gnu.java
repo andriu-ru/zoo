@@ -20,6 +20,6 @@ public class Gnu {
     }
 
     public void eatLeaves (Vegetation food) {
-        System.out.println( "Ммм какая вкусная " + food.productNameTwo );
+        System.out.println( "Ммм какие вкусные " + food.productName );
     }
 }

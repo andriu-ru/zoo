@@ -21,5 +21,5 @@ public class Hyena {
     }
 
 
-    public void eatForHyena(Food food) { System.out.println( "Ммм какое вкусное " + food.productNameTwo ); }
+    public void eatForHyena(Food food) { System.out.println( "Ммм какое вкусное " + food.productName ); }
 }
