@@ -17,10 +17,10 @@ public class Lion {
     }
 
     public void run() {
-        System.out.println( "Лев сидит на попе!" );
+        System.out.println( this.name + " сидит на попе!" );
     }
 
-    public void eatMeat( Meat food) {
+    public void eatForLion(Food food) {
         System.out.println( "Ммм какое вкусное " + food.productName );
     }
 }
